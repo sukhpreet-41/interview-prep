@@ -1,0 +1,64 @@
+Ansible Basics:
+
+    What is Ansible, and how does it differ from other configuration management tools?
+    Explain the difference between Ansible control node and managed nodes.
+    How does Ansible communicate with managed nodes?
+    Describe the Ansible inventory and its purpose.
+    What are Ansible modules? Provide some examples.
+    Explain the concept of idempotence in Ansible.
+
+Ansible Playbooks:
+
+    What is an Ansible playbook, and what does it contain?
+    How do you define tasks and plays in an Ansible playbook?
+    Explain the use of variables and templates in Ansible playbooks.
+    How can you include and reuse Ansible playbooks and roles?
+    What are handlers in Ansible, and how are they used?
+    How do you run an Ansible playbook against specific hosts or groups?
+
+Ansible Modules and Plugins:
+
+    What are Ansible modules, and how do they work?
+    Explain the difference between core modules and custom modules.
+    How can you create a custom Ansible module?
+    What are Ansible plugins, and what is their role in extending Ansible's functionality?
+    Describe the use of callback plugins and inventory plugins in Ansible.
+
+Ansible Roles:
+
+    What is an Ansible role, and how does it help with playbook organization?
+    How do you structure an Ansible role directory?
+    Explain the purpose of the main tasks, handlers, templates, and defaults directories within an Ansible role.
+    How can you include and use roles within Ansible playbooks?
+    Describe the use of role variables and defaults in Ansible.
+
+Ansible Inventory and Dynamic Inventory:
+
+    What is Ansible inventory, and how is it structured?
+    How do you define hosts and groups in Ansible inventory?
+    Explain the use of inventory variables and groups of variables.
+    What is dynamic inventory in Ansible, and how does it work?
+    How can you integrate Ansible with cloud providers to dynamically manage inventory?
+
+Ansible Vault and Security:
+
+    What is Ansible Vault, and how does it help with securing sensitive data?
+    How do you encrypt and decrypt Ansible files using Ansible Vault?
+    Explain the use of ansible-vault commands for managing vaulted files.
+    How can you use encrypted variables and files within Ansible playbooks?
+    Describe best practices for managing secrets and credentials in Ansible.
+
+Ansible Galaxy and Community Roles:
+
+    What is Ansible Galaxy, and what is its purpose?
+    How do you search for and install Ansible roles from Ansible Galaxy?
+    Explain the structure and contents of a typical Ansible role from Ansible Galaxy.
+    How can you contribute your own Ansible roles to the Ansible Galaxy community?
+    Describe best practices for using community roles and maintaining role dependencies.
+
+Ansible Testing and CI/CD:
+
+    What are Ansible linting and syntax checking, and how do they help ensure playbook quality?
+    Explain the use of Ansible testing frameworks such as Molecule and Kitchen.
+    How can you integrate Ansible playbooks into a continuous integration/continuous deployment (CI/CD) pipeline?
+    Describe the concept of infrastructure as code (IaC) and its relationship with Ansible.
