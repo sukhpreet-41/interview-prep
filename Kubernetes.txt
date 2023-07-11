@@ -1,0 +1,60 @@
+Certainly! Here are Kubernetes-related interview questions organized by topic:
+
+**Kubernetes Basics:**
+
+1. What is Kubernetes and why is it important in the context of containerization?
+2. Explain the main components of the Kubernetes architecture.
+3. What is the difference between a pod and a container in Kubernetes?
+4. Describe the role of the Kubernetes control plane.
+5. How does Kubernetes handle container orchestration and scheduling?
+6. What is the purpose of kubelet in the Kubernetes cluster?
+
+**Deployments and Pods:**
+
+1. How do you define a deployment in Kubernetes? What are its key components?
+2. Explain the difference between a replica set and a deployment.
+3. How do you scale a deployment in Kubernetes? Can you perform rolling updates during scaling?
+4. What is a pod in Kubernetes? How is it different from a deployment?
+5. How are environment variables and secrets passed to containers within a pod?
+6. What is a readiness probe and why is it useful in a pod configuration?
+
+**Services and Networking:**
+
+1. How do you expose a Kubernetes service internally and externally?
+2. What are the different types of service in Kubernetes? Explain their use cases.
+3. How does Kubernetes handle service discovery within the cluster?
+4. Describe the purpose and functionality of an Ingress resource in Kubernetes.
+5. How can you restrict network traffic to pods using network policies?
+
+**Storage and Volumes:**
+
+1. How do you handle persistent storage in Kubernetes?
+2. Explain the difference between a persistent volume (PV) and a persistent volume claim (PVC).
+3. What is a storage class in Kubernetes? How is it used to provision persistent volumes dynamically?
+4. How do you mount a volume to a pod in Kubernetes?
+5. What are emptyDir and hostPath volumes? When and how would you use them?
+
+**Scalability and High Availability:**
+
+1. How does Kubernetes handle scaling applications horizontally?
+2. Explain the concept of a horizontal pod autoscaler (HPA) in Kubernetes.
+3. How can you achieve high availability for applications in a Kubernetes cluster?
+4. Describe the rolling update strategy in Kubernetes. How does it ensure zero downtime?
+5. What are readiness and liveness probes? How are they used to ensure application availability?
+
+**Advanced Kubernetes Topics:**
+
+1. What is a StatefulSet in Kubernetes? How is it different from a deployment?
+2. Explain the concept of a DaemonSet in Kubernetes. Provide a use case.
+3. What is a custom resource definition (CRD) in Kubernetes?
+4. How do you manage secrets and sensitive data in Kubernetes?
+5. Describe the concept of Kubernetes namespaces and their significance.
+
+**Kubernetes Security:**
+
+1. How do you secure access to the Kubernetes API server?
+2. Explain the role-based access control (RBAC) in Kubernetes.
+3. What are pod security policies (PSPs)? How do they enhance security?
+4. How can you enforce network policies to control communication between pods?
+5. What measures can be taken to secure container images used in Kubernetes deployments?
+
