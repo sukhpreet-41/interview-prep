@@ -1,0 +1,22 @@
+
+1. What is a Jenkins Pipeline, and how does it differ from traditional Jenkins jobs?
+2. What are the advantages of using Jenkins Pipeline over freestyle jobs?
+3. Explain the structure and components of a Jenkins declarative pipeline.
+4. How do you define stages and steps within a Jenkins Pipeline?
+5. What is the difference between the "scripted" and "declarative" syntax in Jenkins Pipeline?
+6. How can you define parameters and input in a Jenkins Pipeline?
+7. How do you handle errors and exception handling in a Jenkins Pipeline?
+8. What is the purpose of the "agent" directive in a Jenkins Pipeline?
+9. How can you parallelize stages and steps in a Jenkins Pipeline?
+10. Describe the use of Jenkins Shared Libraries in Pipeline.
+11. How can you trigger downstream jobs or pipelines from within a Jenkins Pipeline?
+12. Explain how to define and use environment variables in a Jenkins Pipeline.
+13. What are the different ways to specify agent labels in a Jenkins Pipeline?
+14. How can you pass data between stages or steps in a Jenkins Pipeline?
+15. Describe how to handle SCM (source code management) within a Jenkins Pipeline.
+16. How do you handle secrets and credentials in a Jenkins Pipeline?
+17. Explain the use of post-build actions and notifications in a Jenkins Pipeline.
+18. What are some best practices for writing efficient and maintainable Jenkins Pipelines?
+19. How can you parameterize and customize Jenkins Pipelines based on different environments?
+20. Describe the process of promoting a Jenkins Pipeline to different environments (e.g., dev, staging, production).
+
