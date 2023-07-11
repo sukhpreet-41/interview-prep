@@ -1,0 +1,55 @@
+**Auto Scaling Basics:**
+
+1. What is AWS Auto Scaling, and what problem does it solve?
+2. Explain the difference between horizontal and vertical scaling.
+3. How does AWS Auto Scaling handle dynamic changes in application demand?
+4. Describe the benefits of using AWS Auto Scaling in an application architecture.
+5. What are the key components of AWS Auto Scaling?
+
+**Auto Scaling Configuration:**
+
+1. How do you define and configure an Auto Scaling group in AWS?
+2. Explain the role of launch configurations in AWS Auto Scaling.
+3. What parameters can you specify in an Auto Scaling group?
+4. How can you configure Auto Scaling policies for scaling in and out?
+5. What is the purpose of cooldown periods in Auto Scaling?
+
+**Auto Scaling Triggers:**
+
+1. How can you trigger Auto Scaling activities based on metrics in AWS?
+2. Explain the use of Amazon CloudWatch alarms as triggers for Auto Scaling.
+3. How do you define and configure scaling policies based on CloudWatch alarms?
+4. Describe the process of using AWS CloudWatch Events as triggers for Auto Scaling.
+5. What is the difference between scheduled scaling and dynamic scaling in AWS Auto Scaling?
+
+**Integration with Elastic Load Balancing:**
+
+1. How can you integrate AWS Auto Scaling with Elastic Load Balancing?
+2. Explain how Auto Scaling works with a load balancer during scaling events.
+3. What are target tracking scaling policies, and how do they work with load balancers?
+4. Describe the use of step scaling policies in conjunction with load balancers.
+5. How can you configure health checks for instances behind a load balancer in Auto Scaling?
+
+**Auto Scaling Lifecycle Hooks:**
+
+1. What are Auto Scaling lifecycle hooks, and how do they work?
+2. Explain the purpose of the "wait" and "terminate" lifecycle hooks.
+3. How can you use lifecycle hooks to perform custom actions during Auto Scaling events?
+4. Describe the process of configuring and managing lifecycle hooks in Auto Scaling.
+5. What are the considerations for using lifecycle hooks in conjunction with Auto Scaling?
+
+**Multi-Region Auto Scaling:**
+
+1. How can you configure Auto Scaling across multiple AWS regions?
+2. Explain the use of AWS Global Accelerator in multi-region Auto Scaling scenarios.
+3. Describe the process of replicating Auto Scaling configurations across regions.
+4. What are the best practices for achieving fault tolerance with multi-region Auto Scaling?
+5. How do you handle data replication and synchronization in multi-region Auto Scaling setups?
+
+**Auto Scaling Best Practices:**
+
+1. What are some best practices for setting up effective Auto Scaling configurations?
+2. Explain the considerations for properly sizing and configuring instances in Auto Scaling groups.
+3. How can you optimize Auto Scaling based on usage patterns and application behavior?
+4. Describe strategies for handling instances that fail to launch or terminate in Auto Scaling.
+5. What are the considerations for monitoring and troubleshooting Auto Scaling activities?
