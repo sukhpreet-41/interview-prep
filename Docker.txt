@@ -1,0 +1,70 @@
+
+**Docker Basics:**
+
+1. What is Docker, and what problem does it solve?
+2. Explain the difference between Docker containers and virtual machines.
+3. What are the key components of Docker architecture?
+4. How does Docker achieve container isolation?
+5. Describe the Docker container lifecycle.
+6. How is a Docker image different from a Docker container?
+7. What is the purpose of a Dockerfile? How is it used?
+
+**Docker Images:**
+
+1. How do you create a Docker image?
+2. What is a Docker registry, and how does it relate to Docker images?
+3. How do you push a Docker image to Docker Hub?
+4. Explain the concept of layers in Docker images.
+5. How do you tag a Docker image, and why is it useful?
+6. What is a multi-stage Docker build, and when would you use it?
+7. How do you optimize Docker images for size and efficiency?
+
+**Docker Networking:**
+
+1. Explain Docker networking modes: bridge, host, overlay, and MACVLAN.
+2. How do you create a custom bridge network in Docker?
+3. How do containers communicate with each other on the same network?
+4. What is the purpose of service discovery in Docker Swarm?
+5. How can you expose container ports to the host system?
+6. Describe the use case for using host networking mode.
+7. How do you configure a container to use a specific network in Docker Compose?
+
+**Docker Volumes:**
+
+1. What are Docker volumes, and why are they useful?
+2. How do you create a named volume in Docker?
+3. What is the difference between a bind mount and a volume?
+4. How do you back up and restore Docker volumes?
+5. How can you share a volume between multiple containers?
+6. Explain the concept of Docker volume drivers.
+7. How do you clean up unused Docker volumes?
+
+**Docker Compose:**
+
+1. What is Docker Compose, and what problem does it solve?
+2. How do you define services and networks in a Docker Compose file?
+3. What are the benefits of using Docker Compose for local development?
+4. How do you scale services defined in a Docker Compose file?
+5. Explain the difference between `docker-compose up`, `docker-compose down`, and `docker-compose build`.
+6. How do you override environment variables in a Docker Compose file?
+7. Describe the process of deploying a multi-container application using Docker Compose.
+
+**Docker Swarm:**
+
+1. What is Docker Swarm, and why would you use it?
+2. How do you initialize a Docker Swarm cluster?
+3. Explain the difference between a manager node and a worker node in Docker Swarm.
+4. How do you deploy a service on a Docker Swarm cluster?
+5. What is the purpose of a Docker service and a Docker stack in Swarm mode?
+6. How do you scale services in a Docker Swarm cluster?
+7. Describe the process of updating a service in Docker Swarm.
+
+**Docker Security:**
+
+1. How does Docker provide isolation and security for containers?
+2. What are Docker security profiles, and how do they work?
+3. Explain the concept of user namespaces in Docker.
+4. How do you scan Docker images for vulnerabilities?
+5. What are the best practices for securing Docker containers in production?
+6. How can you restrict container resource usage in Docker?
+7. Describe the process of enabling and configuring TLS encryption in Docker.
