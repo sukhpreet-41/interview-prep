@@ -1,0 +1,55 @@
+**EC2 Basics:**
+
+1. What is Amazon EC2, and how does it work?
+2. Explain the difference between an instance and an AMI in EC2.
+3. What are the various instance types available in EC2, and how do they differ?
+4. Describe the process of launching an EC2 instance.
+5. What is an EC2 security group, and how does it control inbound and outbound traffic?
+
+**EC2 Instance Lifecycle:**
+
+1. Explain the lifecycle of an EC2 instance (i.e., from creation to termination).
+2. How can you start and stop an EC2 instance manually?
+3. What happens to the data stored on an instance when it is terminated?
+4. Describe the concept of an instance store and its limitations.
+5. How can you enable automatic instance recovery in EC2?
+
+**EC2 Storage Options:**
+
+1. What are the different storage options available in EC2?
+2. Explain the differences between Amazon EBS (Elastic Block Store) and instance store volumes.
+3. How do you create and attach an Amazon EBS volume to an EC2 instance?
+4. Describe the process of resizing an EBS volume.
+5. What is the purpose of Amazon Elastic File System (EFS) in EC2?
+
+**EC2 Networking and Security:**
+
+1. How does networking work in EC2? Explain VPCs, subnets, and security groups.
+2. What is the difference between a public IP address and an Elastic IP address?
+3. How can you enable traffic between instances in different security groups?
+4. Describe the process of assigning multiple IP addresses to an EC2 instance.
+5. How can you enhance the security of an EC2 instance using IAM roles?
+
+**EC2 Auto Scaling:**
+
+1. What is EC2 Auto Scaling, and what problem does it solve?
+2. Explain the components of EC2 Auto Scaling: launch configuration, auto scaling groups, and scaling policies.
+3. How does EC2 Auto Scaling handle scaling events and policies?
+4. Describe the difference between scale-out and scale-in events in EC2 Auto Scaling.
+5. How can you integrate EC2 Auto Scaling with Elastic Load Balancing?
+
+**EC2 High Availability and Load Balancing:**
+
+1. How can you achieve high availability in EC2?
+2. Describe the process of creating an Elastic Load Balancer (ELB) in EC2.
+3. Explain the different types of Elastic Load Balancers and their use cases.
+4. How can you configure health checks for EC2 instances behind a load balancer?
+5. What is session stickiness, and how does it work with Elastic Load Balancers?
+
+**EC2 Monitoring and Troubleshooting:**
+
+1. How can you monitor EC2 instances using CloudWatch?
+2. What are CloudWatch metrics, and how do you view them for EC2 instances?
+3. Describe the use of CloudWatch alarms for EC2 instance monitoring.
+4. How can you troubleshoot connectivity issues with EC2 instances?
+5. What are the best practices for optimizing EC2 instance performance?
