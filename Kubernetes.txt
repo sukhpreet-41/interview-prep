@@ -57,7 +57,7 @@ Certainly! Here are Kubernetes-related interview questions organized by topic:
 3. What are pod security policies (PSPs)? How do they enhance security?
 4. How can you enforce network policies to control communication between pods?
 5. What measures can be taken to secure container images used in Kubernetes deployments?
-
+--------------------------------------------------------------------------------------------------------------------------------------------
 ** DEEKSHITH SN YT - https://www.youtube.com/watch?v=yPoDiW04qIo
 
  1. Why do we need container orchestration.
