@@ -58,3 +58,62 @@ Certainly! Here are Kubernetes-related interview questions organized by topic:
 4. How can you enforce network policies to control communication between pods?
 5. What measures can be taken to secure container images used in Kubernetes deployments?
 
+** DEEKSHITH SN YT - https://www.youtube.com/watch?v=yPoDiW04qIo
+
+ 1. Why do we need container orchestration.
+
+	 1.1 What is container Runtime
+
+	 1.2 What are different container orchestration tools (K8s, docker swarm)
+
+ 2. Why Kubernetes and not Docker swarm or something else (Details here 15 mins went here)
+
+ 3. Designing High Availability for Master nodes !
+
+	 3.1 Quorum concept for leader selection
+
+ 4. What type of HA architecture havae you managed in terms of high availability or otherwise
+
+ 5. What is the Kubernetes Version you are running 
+
+ 6. How do you get configuration information for different clusters
+
+ 7. When you issue a kubectl command, what happens behind the scenes. Can you please run us through
+
+ 8. What are the different types of Objects in k8s. How to get the list of objects installed in the cluster
+
+ 9. Do we have some means of getting documentation of the resources in offline mode
+
+10. Designing an application having two sets of services: Front end Service, Backend Service and DB Service. Share best practices and architecture	
+
+11. Discuss aboout Stateful set and deployments in k8s
+
+12. Share object used for scaling up the pods, say, in case of load increase
+
+13. Discuss about Restart Policies as part of yaml files
+
+14. Discuss different status of Pods. Like Pending status
+
+15. How to resolve specific issues related to Pod status like OOM. Debugging approach based on the pod status
+
+16. What is the concept of Image pullback / something similar
+
+17. Can a Pod have multiple containers
+
+18. Scenario: Very huge file, present in s3. User wish to download the file. Application Image can not handle it directly. It has to be downloaded and made available to the Pod. ....Concept of Init containers here 
+
+19. Scenario: Central logging system. Want to use that system. Discuss the pattern used. .....Concept of sidecar Pattern
+
+20. Discussion on best practice of having smallest possible Image size...
+
+	20.1. Discussion on Ephemeral containes. Concept here
+
+21. Scenario: Your application need to talk to some legacy application. Need to reduce the Image size.. Pattern to be used here to be discussed such as Ambassador pattern
+
+22. Scenario: App B to communicate with App A using some endppoint. API A would give Json output, App B needs xml format. How to resolve this stalemate. Concept of Adapter / exporters container discussed !
+
+23. What is the use of Replicaset / deployment
+
+24. How to rollback to previous versions
+
+25. Different deployment strategies in k8s. Pros and Cons for each of them 
