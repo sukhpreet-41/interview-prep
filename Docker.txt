@@ -68,3 +68,28 @@
 5. What are the best practices for securing Docker containers in production?
 6. How can you restrict container resource usage in Docker?
 7. Describe the process of enabling and configuring TLS encryption in Docker.
+
+
+✔️  How to configure the docker private registry?
+A - go to /etc/docker/daemon.json and add {"insecure-registries":["url_of_registry:port"]} and then restart docker.
+
+✔️  Types of network in docker? if you don't specify the network to deploy on which network the container will be created?
+A - Bridge, overlay, host, ipvlan, macvlan, none. if we dont configure the n/w the container will be created in default bridge n/w.
+
+✔️  Explain a sample docker file that you have used in your project? 
+
+✔️  Can we launch Linux containers Windows and vice versa?
+A - No, docker uses host os.
+
+✔️ What does ONBUILD instruction do in Dockerfile?
+A - 
+
+✔️  What is the use of the .dockerignore file?
+A - ignore the files that are not required to the docker daemon while building. 
+
+✔️  How to delete all stopped containers and unused images command for that?
+A - docker prune
+
+✔️  Is it good to use docker-compose in production?
+✔️  How to parametrize base image tags? 
+✔️  Building Dockerfile in the directory which has large files is good practice. 
