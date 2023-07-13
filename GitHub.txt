@@ -1,0 +1,29 @@
+ What is git reset? Types of reset? 
+	A -    Undo changes to the local repo (when we git commit before pushing to Github). Mixed reset, hard reset, soft reset 
+          "git reset HEAD~1" (to delete the latest commit, but it will not get deleted from the local machine directory)     
+
+✔️  How to delete the local branch and remote branch in Git? 
+  A -  local - git branch -D "branch_name" / remote - git push origin --delete "branch_name"
+
+✔️ Difference between git diff and git status? 
+  A - diff, to compare two different commit changes. "git diff id1 id2 "
+
+✔️ What are hooks in git? 
+  A - hooks are special scripts that execute after or before certain events. eg git push/pull/revert etc.
+      like for eg, when we commit to a repo a k8s manifestation file, the datree checks against the rules defined in pre-commit file and if it matches the rules it normally commits otherwise it fails the commit. i.e. it validates the file against the rules.
+
+✔️  What is the importance .git directory? 
+  A - it represents that the directory is git initialized 
+ 
+✔️  What are the branches, diff between remote and local branches? 
+  A - a different branch
+
+✔️  What Branching strategy that you are familiar with? 
+
+✔️  What PR (Pull request) is? what's the importance of PR?  
+
+✔️  Which version of git have you used? 
+
+✔️  What is git squash? 
+
+✔️  Command to list all commits? 
