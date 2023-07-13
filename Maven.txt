@@ -1,0 +1,22 @@
+✔️  What are things you need to set, if you want to download dependency from the private repository?
+ A -     by default, mvn downloads the dependencies from the public repo but if we want to download them from the private repo we have to navigate to .m2/ folder, and under the steeing.xml file we have to add the mirrors section and the ip location of that repo from which we have to download the dependencies 
+
+✔️  Command to skip the test cases in Maven
+ A -     mvn clean install -Dmaven.test.skip
+
+✔️  What is the multi-module project?
+ A -    in parent level pom.xml there should be <packaging> tag as 'pom' and the modules tag ie child modules that are involved in the project we have to specify in the parent pom file. In the child pom file, we also have to mention the parent.  
+
+✔️  What is the importance of dependency management?
+ A -      it helps us to manage dependencies all collectively i.e. if we have to change the dependencies version in all projects, rather than changing it in each pom file we can collectively change it by adding the <dependenciesManagement> tag in the parent pom.xml file
+
+✔️  What is the default value of the packaging tag? What other values for other artifact types?
+ A -      .jar tag / .war
+
+✔️  What are GAV’s?
+ A - G -group id
+     A - Artifact id
+    V - Version if of the artifact
+
+✔️  Is there a way by which we can set the local repository as some other custom directory, other than .m2?
+  A - by default its .m2 directory, otherwise if we want custom location then we can use 'mvn clean install -Dmaven.repo.local="path_of_the_new_directory" '
