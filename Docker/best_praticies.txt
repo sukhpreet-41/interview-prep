@@ -1,0 +1,6 @@
+While creating docker file we can add maintainer name; - who is managing that docker file 
+LABEL maintainer="name"
+--------
+While creating entrypoint or executing CMD it is by default executes as root in docker container so we can add a user by "RUN adduser username" and specifing user before entrypoint as "USER name", for avoing any security related issues with container.
+--------
+
