@@ -1,0 +1,35 @@
+Deployment Strategies in k8s:
+shorter and more frequent Deployment Strategies offers:
+    reduced to to market
+    customer can take advantage to features faster.
+    faster feedback
+
+
+    ROLLING UPDATE:
+    Rolling update is a deployment strategy where the new version of an application or service replaces instances one by one of older version of the deployment, without bringing whole application down.
+    pros: convenient for stateful applications, new version is slowly released
+    cons: time taking, no controll over traffic
+
+
+    RECREATE:
+    whole application is brought down and new one is relaced in place of older
+    pros: renewed application
+    cons: downtime
+
+
+    BLUE/GREEN Deployment:
+    It involves maintaining two identical environments, the blue environment (existing live environment) and the green environment (new environment with the updated version).
+    Here's how a blue-green deployment typically works:
+    Blue Environment: The blue environment represents the currently live and stable version of the application or system.
+    Green Environment: The green environment is an identical clone of the blue environment, but with the updated version of the application or system.
+    Testing and Verification: The new version of the application is thoroughly tested and verified in the green environment to ensure it functions correctly and meets all the requirements.
+    Switching Traffic: Once the green environment passes the testing phase, the traffic routing is switched from the blue environment to the green environment. This can be achieved by updating the load balancer or DNS configuration to direct incoming requests to the green environment.
+    Validation and Rollback: After the traffic switch, the green environment becomes the new live environment, and any issues that arise can be quickly identified and addressed. If critical issues are discovered, the deployment can be rolled back by switching the traffic back to the blue environment.
+    pros: instant rollout/back
+    cons:
+
+
+    CANARY Deployment:
+    A Canary release involves releasing the latest changes to a small subset (or percentage) of users.
+    pros: convenient for error rate and preformance, fast Rollback
+    cons: slow rollout, can be expensive
